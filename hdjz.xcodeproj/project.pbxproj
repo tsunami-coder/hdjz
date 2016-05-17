@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					AC629AA71CEB0D2F00917CBC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3QEJ44XK8S;
 					};
 					AC629AC01CEB0D2F00917CBC = {
 						CreatedOnToolsVersion = 7.3;
@@ -345,7 +346,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: haojie chen (3QEJ44XK8S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: haojie chen (3QEJ44XK8S)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -389,7 +391,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: haojie chen (3QEJ44XK8S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: haojie chen (3QEJ44XK8S)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -413,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: haojie chen (3QEJ44XK8S)";
 				INFOPLIST_FILE = hdjz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdjz.hdjz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: haojie chen (3QEJ44XK8S)";
 				INFOPLIST_FILE = hdjz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdjz.hdjz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +503,7 @@
 				AC629AD71CEB0D2F00917CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC629AD81CEB0D2F00917CBC /* Build configuration list for PBXNativeTarget "hdjzTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +512,7 @@
 				AC629ADA1CEB0D2F00917CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC629ADB1CEB0D2F00917CBC /* Build configuration list for PBXNativeTarget "hdjzUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				AC629ADD1CEB0D2F00917CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
